@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="stock_inventory_line_view_tree" model="ir.ui.view">
+        <field name="name">stock.inventory.line.view.tree.inherited</field>
+        <field name="model">stock.inventory.line</field>
+        <field name="inherit_id" ref="stock.stock_inventory_line_tree2" />
+        <field name="arch" type="xml">
+            <field name="product_id" position="after">
+                <field name="account_ids" />
+                <field name="description" />
+                <field name="price" />
+                <field name="descuento" />
+            </field>
+        </field>
+
+    </record>
+</odoo>

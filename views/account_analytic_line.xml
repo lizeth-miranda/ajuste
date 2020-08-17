@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="account_analytic_view_tree" model="ir.ui.view">
+        <field name="name">account.analytic.view.tree.inherited</field>
+        <field name="model">account.analytic.line</field>
+        <field name="inherit_id" ref="analytic.view_account_analytic_line_tree" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="motivo" />
+            </field>
+        </field>
+    </record>
+</odoo>
