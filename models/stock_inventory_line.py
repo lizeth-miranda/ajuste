@@ -11,6 +11,7 @@ class Ajuste(models.Model):
     account_ids = fields.Many2one(
         comodel_name='account.analytic.account',
         string="Analytic Account",
+        required=True,
     )
 
     price = fields.Float(
