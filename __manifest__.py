@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Ajuste_inventario',
-    'version': '13.0.0.4.0',
+    'version': '13.1',
     'author': 'Demsa',
     'website': '',
     'depends': [
         'stock',
         'account',
         'account_accountant',
+        'fleet',
 
     ],
     'data': [
@@ -17,6 +18,8 @@
         # reports
         # views
         'views/stock_inventory_line.xml',
-        'views/account_analytic_line.xml',
+        'views/fleet_vehicle.xml',
+
     ],
 }
+
