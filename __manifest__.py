@@ -4,6 +4,7 @@
     'version': '13.1',
     'author': 'Demsa',
     'website': '',
+    'license': 'LGPL-3',
     'depends': [
         'stock',
         'account',
