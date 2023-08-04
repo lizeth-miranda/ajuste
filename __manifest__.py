@@ -22,5 +22,6 @@
         'views/fleet_vehicle.xml',
 
     ],
+    'license': 'LGPL-3',
 }
 
